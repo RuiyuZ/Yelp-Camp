@@ -20,8 +20,12 @@ var commentRoutes 		= require("./routes/comments"),
 	
 
 mongoose.set('useUnifiedTopology', true);
-//mongoose.connect('mongodb://localhost/yelp_camp', { useNewUrlParser: true });
-mongoose.connect('mongodb+srv://etain42:zry@0808@cluster0-pi2ip.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true });
+
+//console.log(process.env.DATABASEURL);
+//mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
+
+mongoose.connect('mongodb://localhost/yelp_camp', { useNewUrlParser: true });
+//mongoose.connect('mongodb+srv://etain42:zry@0808@cluster0-pi2ip.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true });
 // mongodb+srv://etain42:zry@0808@cluster0-pi2ip.mongodb.net/test?retryWrites=true&w=majority
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine", "ejs");
