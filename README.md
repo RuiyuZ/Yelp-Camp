@@ -1,13 +1,13 @@
 # Yelp-Camp
 A full-stack Node.js web application with RESTful routing that allow user to create, read, update, and delete campground information.
 
-![home-page](home.png)
+![home-page](home-page.png)
 
 > A Node.js web application project from the Udemy course - [The Web Developer Bootcamp by Colt Steele](https://www.udemy.com/the-web-developer-bootcamp/)
 
 ## Live Demo
 
-To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://yelpcamp--demo.herokuapp.com/)
+To see the app in action, go to [https://fathomless-peak-16017.herokuapp.com/](https://fathomless-peak-16017.herokuapp.com/)
 
 ## Features
 
@@ -62,7 +62,7 @@ To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://
 ### Clone or download this repository
 
 ```sh
-git clone https://github.com/lucasweng/yelp-camp.git
+git clone https://github.com/RuiyuZ/Yelp-Camp.git
 ```
 
 ### Install dependencies
